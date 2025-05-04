@@ -1,7 +1,7 @@
 
 # EX2
-#
-#
+
+
 # #EX3
 # def func(x, y):
 #     if (x - y) == 135 or (y - x) == -135:
