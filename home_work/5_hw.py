@@ -4,6 +4,7 @@ from selenium.webdriver.common.by import By
 driver = webdriver.Chrome()
 driver.get("https://www.saucedemo.com/")
 
+
 ## Поиск элемента
 username = driver.find_element(By.CSS_SELECTOR, '[id="user-name"]')
 
