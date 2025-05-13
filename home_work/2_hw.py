@@ -1,31 +1,24 @@
-# a: int = 5
-# b: float = 15.001
-# c: str = 'строка'
-# d: list = [2, 4, 6, 8]
-# e: bool = True
-#
-# def rr(a: int, b: float, c: str, d: list, e: bool) -> str:
-#     return type(a)
-# print rr(5)
-# #
-#
-# print(a, "относится к типу", type(a))
-# print(b, "относится к типу", type(b))
-# print(c, "относится к типу", type(c))
-# print(d, "относится к типу", type(d))
-# print(e, "относится к типу", type(e))
+# Дз2
 
+# #1
+# def task_1() -> int:
+#     a: int = 5
+#     b: float = 7.008
+#     c: string = 'str'
+#     d: list = [1, 8, 7, 5]
+#     e: bool = True
+#     return (a,  "относится к типу ",  type(a)) , (b, "относится к типу ", type(b)), (c, "относится к типу ", type(c)), (d, "относится к типу ", type(d)), (e, "относится к типу ", type(e))
 #
-# def sad(a = [1, 2, 3, 5, 8, 13, 21]):
-#     return sad(a)
-# print(a[0:3])
+# print(task_1())
 
 
-def greet(a: int, b: float, c: str, d: list, e: bool) -> str:
-    return "Hello, " + type()
-a: int = 5
-b: float = 15.001
-c: str = 'строка'
-d: list = [2, 4, 6, 8]
-e: bool = True
-print(greet(c))
+# #2
+# def task_2() -> int:
+#    a: list = [1, 2, 3, 5, 8, 13, 21]
+#    return a[0:3]
+# print(task_2())
+
+# #3
+# def task_3(a: int) -> int:
+#     return a*a
+# print(task_3(4))
