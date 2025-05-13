@@ -1,6 +1,13 @@
 
-# EX2
-
+# #EX2
+# def func(a: int, b: int) -> int:
+#      if a > b:
+#          print(a)
+#      elif a == b:
+#          print('a равно b')
+#      else:
+#          print(b)
+# func(5, 8)
 
 # #EX3
 # def func(x, y):
